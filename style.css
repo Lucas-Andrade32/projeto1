@@ -1,0 +1,72 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  
+  text-align: center;
+  margin: 0;
+}
+
+#hero {
+  width: 592px;
+  /* o primeiro valor vem para o topo e o segundo valor vai para as laterais, o terceiro para baixo */
+
+  margin: 0 auto 72px;
+
+/* se quiser mudar o tamanho das laterais, primeiro é a direita depois a esquerda ex: 0 32px 72px 48px, funciona como um relógio, cima, direita, baixo, esquerda (top, right, bottom, left) */
+
+/* mesma coisa que escrever
+ margin-top: 0;
+ margin-bottom: 72px;
+ margin-left: auto;
+ margin-right: auto;
+*/
+
+}
+
+#hero img {
+margin-bottom: 72px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+
+span, a {
+  color: #FF9900;
+}
+
+p, footer {
+  color: #7D7987;
+
+  font-size: 14px ;
+  line-height: 28px;
+}
+
+#footer a +a{
+  margin-left: 28px;
+}
+/* a + a pega o a que tenha anterior a ele um a; é como se lesse de traz pra frente */
+
+#line {
+  width: 568px;
+  height: 0px;
+
+  margin: 0 auto 8px;
+
+  border: 1px solid #ECEFF2;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
